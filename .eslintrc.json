@@ -1,6 +1,7 @@
 {
     "extends": ["standard", "standard-react"],
     "rules": {
-        "comma-dangle": ["error", "always-multiline"]
+        "comma-dangle": ["error", "always-multiline"],
+        "eol-last":"off"
     }
 }
