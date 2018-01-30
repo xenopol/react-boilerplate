@@ -1,14 +1,12 @@
-import React, { Component, Fragment } from 'react'
+import React, { Fragment } from 'react'
+import Clock from './Clock'
 
-class App extends Component {
-  render () {
-    return (
-      <Fragment>
-        <h1>React Boilerplate</h1>
-        <h2>Using react-hot-loader</h2>
-      </Fragment>
-    )
-  }
-}
+const App = () => (
+  <Fragment>
+    <h1>React Boilerplate</h1>
+    <h2>Using react-hot-loader</h2>
+    <Clock />
+  </Fragment>
+)
 
 export default App
